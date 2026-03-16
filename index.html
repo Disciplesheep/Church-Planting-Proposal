@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Timothy 2:2 Ministry Proposal - Visual Chart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+        @media (min-width: 768px) {
+            body { font-size: 20px; line-height: 1.8; }
+        }
+        @media (min-width: 1024px) {
+            body { font-size: 22px; line-height: 1.8; }
+        }
+        @media (min-width: 1440px) {
+            body { font-size: 24px; line-height: 1.9; }
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .tab-btn.active {
+            background-color: white;
+            color: #9333ea;
+            border-bottom: 2px solid #9333ea;
+        }
+        .progress-bar {
+            transition: width 1s ease-in-out;
+        }
+        h1 { font-size: 2.5rem; line-height: 1.2; }
+        h2 { font-size: 2rem; line-height: 1.3; }
+        h3 { font-size: 1.75rem; line-height: 1.3; }
+        h4 { font-size: 1.5rem; line-height: 1.4; }
+        @media (min-width: 768px) {
+            h1 { font-size: 3rem; }
+            h2 { font-size: 2.5rem; }
+            h3 { font-size: 2rem; }
+            h4 { font-size: 1.75rem; }
+        }
+        @media (min-width: 1024px) {
+            h1 { font-size: 3.5rem; }
+            h2 { font-size: 2.75rem; }
+            h3 { font-size: 2.25rem; }
+            h4 { font-size: 2rem; }
+        }
+        @media (min-width: 1440px) {
+            h1 { font-size: 4rem; }
+            h2 { font-size: 3rem; }
+            h3 { font-size: 2.5rem; }
+            h4 { font-size: 2.25rem; }
+        }
+        .text-base { font-size: 1rem; }
+        .text-lg { font-size: 1.125rem; }
+        .text-xl { font-size: 1.25rem; }
+        .text-2xl { font-size: 1.5rem; }
+        .text-sm { font-size: 0.95rem; }
+        .text-xs { font-size: 0.875rem; }
+        @media (min-width: 768px) {
+            .text-base { font-size: 1.125rem; }
+            .text-lg { font-size: 1.25rem; }
+            .text-xl { font-size: 1.5rem; }
+            .text-2xl { font-size: 1.75rem; }
+            .text-sm { font-size: 1rem; }
+            .text-xs { font-size: 0.95rem; }
+        }
+        @media (min-width: 1024px) {
+            .text-base { font-size: 1.25rem; }
+            .text-lg { font-size: 1.5rem; }
+            .text-xl { font-size: 1.75rem; }
+            .text-2xl { font-size: 2rem; }
+            .text-sm { font-size: 1.125rem; }
+            .text-xs { font-size: 1rem; }
+        }
+        ul li, ol li { margin-bottom: 0.75rem; }
+        p { margin-bottom: 1rem; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-purple-50 min-h-screen">
+    <div class="w-full min-h-screen">
+        <div class="bg-white shadow-2xl min-h-screen flex flex-col">
+            <!-- Header -->
+            <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-7 md:p-9 lg:p-11">
+                <div class="flex items-center justify-between flex-wrap gap-4">
+                    <div>
+                        <h1 class="text-4xl md:text-5xl font-bold mb-5">Ministry Proposal</h1>
+                        <p class="text-xl md:text-2xl opacity-90">2 Timothy 2:2</p>
+                        <p class="text-base md:text-lg opacity-80 mt-2">Zero-to-Church Plant Strategy</p>
+                        <div class="flex items-center gap-4 mt-4 text-xs md:text-sm flex-wrap">
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                                </svg>
+                                <span>Puerto Princesa City, Palawan</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                </svg>
+                                <span>5-Year Church Planting Plan</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                                </svg>
+                                <span>Prepared by: Reynold Viernes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <svg class="w-16 h-16 md:w-20 md:h-20 opacity-80 hidden sm:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <div class="bg-gray-100 border-b border-gray-200 overflow-x-auto">
+                <div class="flex min-w-max">
+                    <button onclick="showTab('overview')" class="tab-btn active px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Overview</button>
+                    <button onclick="showTab('calling')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">My Calling</button>
+                    <button onclick="showTab('generations')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">4 Generations</button>
+                    <button onclick="showTab('timeline')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Timeline</button>
+                    <button onclick="showTab('budget')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Budget</button>
+                    <button onclick="showTab('goals')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">5-Year Goals</button>
+                    <button onclick="showTab('activities')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Activities</button>
+                    <button onclick="showTab('shirts')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Milestone Shirts</button>
+                    <button onclick="showTab('accountability')" class="tab-btn px-4 md:px-6 py-3 font-semibold text-sm md:text-base transition-colors whitespace-nowrap text-gray-600 hover:text-purple-600">Accountability</button>
+                </div>
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1 overflow-y-auto">
+                <div class="p-6 md:p-8 lg:p-10">
+                    <!-- Overview Tab -->
+                    <div id="overview" class="tab-content active">
+                        <div class="space-y-6">
+                            <div class="bg-blue-100 border-2 border-blue-400 rounded-lg p-6">
+                                <div class="flex items-start gap-4">
+                                    <svg class="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-blue-900 mb-3">Important Note</h3>
+                                        <p class="text-lg text-gray-700 leading-relaxed mb-3">
+                                            The growth projections, budget requirements, and timeline for church planting outlined in this proposal are <strong>estimates based on prayerful planning and best practices</strong>. However, we acknowledge that:
+                                        </p>
+                                        <ul class="text-lg text-gray-700 space-y-2 ml-6">
+                                            <li>• <strong>God's timing is sovereign:</strong> The church may be established earlier or later than projected, as the Lord wills.</li>
+                                            <li>• <strong>Growth varies:</strong> Actual growth and multiplication rates depend on spiritual receptivity, local conditions, and God's blessing.</li>
+                                            <li>• <strong>Budget flexibility:</strong> Financial needs may adjust based on ministry progress and local economic conditions.</li>
+                                            <li>• <strong>Missionary's commitment matters:</strong> The dedication, consistency, faithfulness, and spiritual maturity of the missionary directly impact the mission's progress and effectiveness.</li>
+                                            <li>• <strong>Faithfulness over speed:</strong> Our primary commitment is to faithful discipleship and quality multiplication, not merely hitting numerical targets.</li>
+                                        </ul>
+                                        <p class="text-lg text-gray-700 leading-relaxed mt-4 italic">
+                                            "Unless the LORD builds the house, the builders labor in vain." - Psalm 127:1
+                                        </p>
+                                        <p class="text-base text-gray-600 mt-3">
+                                            We remain flexible and responsive to the Holy Spirit's leading throughout this journey, trusting that He who began this good work will carry it to completion in His perfect timing.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-9 rounded-lg">
+                                <h2 class="text-3xl font-bold mb-3">Vision Statement</h2>
+                                <p class="text-lg md:text-xl text-white leading-relaxed mb-6">
+                                    To create a self-multiplying movement of disciples who are equipped to make disciples, 
+                                    integrating campus and workplace environments into one cohesive discipleship ecosystem that 
+                                    transforms lives and communities for Christ, reaching from students to established professionals, 
+                                    culminating in the establishment of a new local church within 5 years.
+                                </p>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                                <div class="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-8 rounded-lg shadow-lg">
+                                    <svg class="w-12 h-12 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                                    </svg>
+                                    <h3 class="text-2xl md:text-2xl font-bold mb-2">44-73</h3>
+                                    <p class="text-lg md:text-xl opacity-90 mb-2">Total People Engaged (Year 1)</p>
+                                    <p class="text-base opacity-75">1 + 8-12 + 20-36 + 15-25</p>
+                                </div>
+                                <div class="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-8 rounded-lg shadow-lg">
+                                    <svg class="w-12 h-12 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    </svg>
+                                    <h3 class="text-2xl md:text-2xl font-bold mb-2">4 Generations</h3>
+                                    <p class="text-lg md:text-xl opacity-90 mb-2">Multiplication Pipeline</p>
+                                    <p class="text-base opacity-75">Me → Leaders → Disciples → Seekers</p>
+                                </div>
+                                <div class="bg-gradient-to-br from-green-500 to-green-600 text-white p-8 rounded-lg shadow-lg">
+                                    <svg class="w-12 h-12 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                    </svg>
+                                    <h3 class="text-2xl md:text-2xl font-bold mb-2">1 Church</h3>
+                                    <p class="text-lg md:text-xl opacity-90 mb-2">Planted by Year 5</p>
+                                    <p class="text-base opacity-75">100-200 members</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-blue-50 border-l-4 border-blue-500 p-8 rounded-r-lg">
+                                <h3 class="text-2xl md:text-3xl font-bold text-blue-900 mb-4">Core Strategy</h3>
+                                <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+                                    Starting from <strong>zero</strong> in Puerto Princesa City, I will build a four-generation 
+                                    discipleship movement following 2 Timothy 2:2. Through intentional relationships with students 
+                                    at Universities and professionals in the marketplace, I will create a self-multiplying 
+                                    community that culminates in a planted church within 5 years.
+                                </p>
+                                <div class="bg-white p-6 rounded border border-blue-200">
+                                    <p class="text-lg font-semibold text-blue-900 mb-3">Starting Point:</p>
+                                    <ul class="text-base md:text-lg text-gray-700 space-y-2">
+                                        <li>• Already in Puerto Princesa City</li>
+                                        <li>• Zero existing community or contacts</li>
+                                        <li>• Fulltime ministry </li>
+                                        <li>• Monthly budget: $500 (₱28,000)</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                                <div class="border-2 border-purple-200 rounded-lg p-8">
+                                    <h3 class="text-2xl font-bold text-purple-900 mb-4 flex items-center gap-2">
+                                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                        </svg>
+                                        Target Locations
+                                    </h3>
+                                    <ul class="space-y-3 text-base md:text-lg text-gray-700">
+                                        <li><strong>Campus:</strong> Palawan State University (PSU) / Western Philippines University (WPU)</li>
+                                        <li><strong>Workplace:</strong> Marketplace</li>
+                                        <li><strong>Students:</strong> Ages 18-25, college/university level</li>
+                                        <li><strong>Professionals:</strong> Ages 22-45, all career stages</li>
+                                        <li><strong>Approach:</strong> Unified discipleship process adapted to life stage</li>
+                                    </ul>
+                                </div>
+                                <div class="border-2 border-green-200 rounded-lg p-8">
+                                    <h3 class="text-2xl font-bold text-green-900 mb-4 flex items-center gap-2">
+                                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                        </svg>
+                                        Success Metrics
+                                    </h3>
+                                    <ul class="space-y-3 text-base md:text-lg text-gray-700">
+                                        <li>• 8-12 Generation 2 leaders trained (Year 1)</li>
+                                        <li>• 4-generation pipeline operational</li>
+                                        <li>• 8-12 baptisms in Year 1</li>
+                                        <li>• 30-40 people in active fellowship</li>
+                                        <li>• Self-sustaining church by Year 5</li>
+                                        <li>• Graduate transition: Campus to workplace</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="bg-yellow-50 border-l-4 border-yellow-500 p-8 rounded-r-lg">
+                                <h3 class="text-2xl md:text-3xl font-bold text-yellow-900 mb-4">Why This Model Works</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-base md:text-lg text-gray-700">
+                                    <div>
+                                        <p class="font-semibold text-yellow-900 mb-3 text-xl">Biblical Foundation:</p>
+                                        <ul class="space-y-2">
+                                            <li>• 2 Timothy 2:2 is the blueprint</li>
+                                            <li>• Jesus' method with the twelve</li>
+                                            <li>• Acts 2 church model</li>
+                                            <li>• Reproducible at every level</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-yellow-900 mb-3 text-xl">Practical Advantages:</p>
+                                        <ul class="space-y-2">
+                                            <li>• Simple to understand and train</li>
+                                            <li>• Self-multiplying design</li>
+                                            <li>• Quality-focused discipleship</li>
+                                            <li>• Sustainable long-term</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-yellow-900 mb-3 text-xl">Church Planting:</p>
+                                        <ul class="space-y-2">
+                                            <li>• Organic growth pattern</li>
+                                            <li>• Leadership from within</li>
+                                            <li>• Financial sustainability</li>
+                                            <li>• Healthy multiplication DNA</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-yellow-900 mb-3 text-xl">Filipino Context:</p>
+                                        <ul class="space-y-2">
+                                            <li>• Relational culture fit</li>
+                                            <li>• Respect for mentorship</li>
+                                            <li>• Affordable and realistic</li>
+                                            <li>• Mobile-friendly approach</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- My Calling Tab -->
+                    <div id="calling" class="tab-content">
+                        <div class="space-y-6">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">My Calling & Commitment</h2>
+                            
+                            <div class="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-lg border-2 border-purple-200">
+                                <p class="text-gray-700 leading-relaxed text-lg">
+                                    I believe God has called me to invest my life in making disciples who make disciples. 
+                                    I am already in Puerto Princesa City and ready to begin.
+                                </p>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white border-2 border-green-200 rounded-lg p-6">
+                                    <h3 class="text-xl font-bold text-green-900 mb-4">I Am Committed To:</h3>
+                                    <ul class="space-y-4 text-gray-700 text-base md:text-lg">
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Living out 2 Timothy 2:2 by investing deeply in faithful people</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Starting from zero and trusting God to build His church</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Serving fulltime </span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Being accountable to supporting partners and church oversight</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Persevering through the full 5-year journey</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-600 text-2xl">✓</span>
+                                            <span>Remaining faithful whether harvest is immediate or delayed</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-white border-2 border-blue-200 rounded-lg p-6">
+                                    <h3 class="text-xl font-bold text-blue-900 mb-4">My Weekly Commitment:</h3>
+                                    <ul class="space-y-4 text-gray-700 text-base md:text-lg">
+                                        <li class="flex items-start gap-3">
+                                            <span class="font-bold text-blue-600 text-lg">• </span>
+                                            <span>One-on-one discipleship with Generation 2 leaders</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="font-bold text-blue-600 text-lg">• </span>
+                                            <span>Leading/facilitating group gatherings</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="font-bold text-blue-600 text-lg">• </span>
+                                            <span>Administration, planning, communication, reporting</span>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-6 pt-6 border-t border-blue-200">
+                                        <h4 class="font-bold text-blue-900 mb-3 text-lg">Spiritual Accountability:</h4>
+                                        <ul class="space-y-2 text-base text-gray-700">
+                                            <li>• <strong>Ptr. Mark Mauricio</strong></li>
+                                            <li>• <strong>Ptr. Nelson De Jesus</strong></li>
+                                            <li>• <strong>Ptr. Tim Lepasana</strong></li>
+                                            <li>• <strong>Mission Partners:</strong> Praise Christian Church & Calvary Baptist Church</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
+                                <h3 class="text-xl font-bold text-purple-900 mb-3">My Qualifications</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+                                    <ul class="space-y-2">
+                                        <li>• Called by God to make disciples in Puerto Princesa</li>
+                                        <li>• Understanding of 2 Timothy 2:2 multiplication</li>
+                                        <li>• Heart for students and professionals</li>
+                                    </ul>
+                                    <ul class="space-y-2">
+                                        <li>• Ability to build relationships from scratch</li>
+                                        <li>• Commitment to biblical teaching</li>
+                                        <li>• Already present and ready to begin</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Generations Tab -->
+                    <div id="generations" class="tab-content">
+                        <div class="space-y-6">
+                            <h2 class="text-3xl font-bold text-gray-800 mb-4">Four-Generation Multiplication Model</h2>
+                            
+                            <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-lg mb-6">
+                                <p class="text-lg italic">
+                                    "And the things you have heard me say in the presence of many witnesses entrust to reliable people 
+                                    who will also be qualified to teach others." - 2 Timothy 2:2
+                                </p>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                                <div class="bg-purple-500 text-white p-6 rounded-lg shadow-lg">
+                                    <div class="text-sm font-semibold mb-2 opacity-80">GENERATION 1</div>
+                                    <div class="text-2xl font-bold mb-3">1</div>
+                                    <div class="font-bold text-lg mb-2">Ministry Worker</div>
+                                    <div class="text-lg opacity-90 mb-4">Fulltime Missionary (Me - Reynold Viernes)</div>
+                                    <div class="text-sm opacity-80 border-t border-purple-400 pt-3 mt-3">
+                                        <p class="font-semibold mb-1">Role:</p>
+                                        <p>Provide vision, training, and oversight. Invest deeply in 8-12 Gen 2 leaders.</p>
+                                    </div>
+                                </div>
+
+                                <div class="bg-blue-500 text-white p-6 rounded-lg shadow-lg">
+                                    <div class="text-sm font-semibold mb-2 opacity-80">GENERATION 2</div>
+                                    <div class="text-2xl font-bold mb-3">8-12</div>
+                                    <div class="font-bold text-lg mb-2">Faithful Leaders</div>
+                                    <div class="text-lg opacity-90 mb-4">Student & Professional Leaders</div>
+<div class="text-sm opacity-80 border-t border-blue-400 pt-3 mt-3">
+<p class="font-semibold mb-1">What They Do:</p>
+<p>Each disciples 2-4 people. Lead small groups. Model Christ-like character.</p>
+</div>
+</div>
+                            <div class="bg-green-500 text-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm font-semibold mb-2 opacity-80">GENERATION 3</div>
+                                <div class="text-2xl font-bold mb-3">20-36</div>
+                                <div class="font-bold text-lg mb-2">Emerging Disciples</div>
+                                <div class="text-lg opacity-90 mb-4">Active in discipleship relationships</div>
+                                <div class="text-sm opacity-80 border-t border-green-400 pt-3 mt-3">
+                                    <p class="font-semibold mb-1">What They Do:</p>
+                                    <p>Grow in faith. Learn to share gospel. Prepare to disciple others.</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-yellow-500 text-white p-6 rounded-lg shadow-lg">
+                                <div class="text-sm font-semibold mb-2 opacity-80">GENERATION 4</div>
+                                <div class="text-2xl font-bold mb-3">15-25</div>
+                                <div class="font-bold text-lg mb-2">New Converts & Seekers</div>
+                                <div class="text-lg opacity-90 mb-4">Being reached and converted</div>
+                                <div class="text-sm opacity-80 border-t border-yellow-400 pt-3 mt-3">
+                                    <p class="font-semibold mb-1">How Reached:</p>
+                                    <p>Relational evangelism, campus outreach, workplace witness.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-lg border-2 border-purple-200">
+                            <h3 class="text-3xl font-bold text-purple-900 mb-4">How Multiplication Works</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="font-bold text-purple-800 mb-3 text-2xl">Generation 1 → 2</h4>
+                                    <p class="text-lg text-gray-700 mb-3">I invest in 8-12 faithful leaders through weekly one-on-one discipleship, leadership training, and equipping.</p>
+                                    <ul class="text-sm text-gray-700 space-y-1">
+                                        <li>• Weekly 1-on-1 meetings</li>
+                                        <li>• Monthly leadership training</li>
+                                        <li>• Tools and resources provided</li>
+                                        <li>• Spiritual accountability</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-3 text-2xl">Generation 2 → 3</h4>
+                                    <p class="text-lg text-gray-700 mb-3">Each leader disciples 2-4 people (20-36 total), creating multiplication through personal relationships.</p>
+                                    <ul class="text-sm text-gray-700 space-y-1">
+                                        <li>• Regular 1-on-1 discipleship</li>
+                                        <li>• Lead small groups (4-6 people)</li>
+                                        <li>• Practice ministry skills</li>
+                                        <li>• Teach what they learned</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-green-800 mb-3 text-2xl">Generation 3 → 4</h4>
+                                    <p class="text-lg text-gray-700 mb-3">Disciples reach friends and contacts naturally, sharing faith and inviting to events and gatherings.</p>
+                                    <ul class="text-sm text-gray-700 space-y-1">
+                                        <li>• Building friendships with seekers</li>
+                                        <li>• Natural faith conversations</li>
+                                        <li>• Inviting to gatherings</li>
+                                        <li>• Sharing personal testimony</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-yellow-800 mb-3 text-2xl">Generation 4 → 3</h4>
+                                    <p class="text-lg text-gray-700 mb-3">New believers immediately enter discipleship relationships, becoming Generation 3 disciples.</p>
+                                    <ul class="text-sm text-gray-700 space-y-1">
+                                        <li>• Clear gospel presentation</li>
+                                        <li>• Immediate discipleship connection</li>
+                                        <li>• Small group integration</li>
+                                        <li>• Pathway to becoming leaders</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                            <h3 class="font-bold text-yellow-900 mb-3 text-lg">Cross-Pollination Strategy</h3>
+                            <p class="text-gray-700 mb-4">Professional mentors (all career stages) adopt student leaders. Students bring energy to workplace ministry. This creates a seamless campus-to-workplace pipeline with unified vision.</p>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                                <div class="bg-white p-4 rounded border border-yellow-200">
+                                    <h4 class="font-bold text-yellow-900 mb-2">Cross-Mentoring</h4>
+                                    <p class="text-gray-700">Every student leader has a professional mentor. Professionals speak into career and life decisions.</p>
+                                </div>
+                                <div class="bg-white p-4 rounded border border-yellow-200">
+                                    <h4 class="font-bold text-yellow-900 mb-2">Shared Events</h4>
+                                    <p class="text-gray-700">Quarterly combined gatherings, joint service projects, united prayer meetings.</p>
+                                </div>
+                                <div class="bg-white p-4 rounded border border-yellow-200">
+                                    <h4 class="font-bold text-yellow-900 mb-2">Graduate Transition</h4>
+                                    <p class="text-gray-700">Graduating students automatically plugged into workplace ministry. No gap or loss.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Tab -->
+                <div id="timeline" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Year 1 Implementation Timeline</h2>
+                        
+                        <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-6">
+                            <h3 class="text-xl font-bold text-green-900 mb-3">Starting from Zero</h3>
+                            <p class="text-gray-700 mb-4">I am already in Puerto Princesa City with zero community. This timeline shows the practical first steps from ground zero to a multiplying movement.</p>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-lg">
+                                <div class="bg-white p-3 rounded border border-green-200">
+                                    <p class="font-bold text-green-800">✓ Already Here</p>
+                                    <p class="text-gray-600 text-sm">In Puerto Princesa</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-green-200">
+                                    <p class="font-bold text-green-800">✓ Zero Community</p>
+                                    <p class="text-gray-600 text-sm">Building from scratch</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-green-200">
+                                    <p class="font-bold text-green-800">✓ Two Locations</p>
+                                    <p class="text-gray-600 text-sm">Universities + Marketplace</p>
+                                </div>
+                                <div class="bg-white p-3 rounded border border-green-200">
+                                    <p class="font-bold text-green-800">✓ Ready Now</p>
+                                    <p class="text-gray-600 text-sm">Upon funding</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="relative">
+                            <div class="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-400 to-blue-400"></div>
+                            
+                            <div class="relative pl-20 pb-8">
+                                <div class="absolute left-4 top-0 w-9 h-9 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg">1</div>
+                                <div class="bg-white border-2 border-purple-200 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                                    <div class="text-sm text-purple-600 font-semibold mb-1">Months 1-2: FOUNDATION</div>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Reconnaissance & Prayer Walking</h3>
+                                    <p class="text-gray-700 mb-4">Scout PSU campus and business areas, build initial relationships through consistent presence.</p>
+                                    <div class="bg-purple-50 p-4 rounded">
+                                        <p class="font-semibold text-purple-900 mb-2 text-lg">Key Activities:</p>
+                                        <ul class="text-lg text-gray-700 space-y-1">
+                                            <li>• Visit PSU/WPU during class hours, observe student life</li>
+                                            <li>• Scout marketplace</li>
+                                            <li>• Prayer walk both locations regularly</li>
+                                            <li>• Show up consistently at same times/places</li>
+                                            <li>• Start casual conversations: "What course?" "Where do you work?"</li>
+                                            <li>• No agenda except friendship and presence</li>
+                                        </ul>
+                                        <p class="text-sm text-purple-800 mt-3"><strong>Budget:</strong> Transportation ₱800-1,200, Meals/coffee ₱2,500-3,000</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative pl-20 pb-8">
+                                <div class="absolute left-4 top-0 w-9 h-9 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg">2</div>
+                                <div class="bg-white border-2 border-purple-200 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                                    <div class="text-sm text-purple-600 font-semibold mb-1">Months 3-4: FIRST DISCIPLES</div>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Generation 2 Development</h3>
+                                    <p class="text-gray-700 mb-4">Identify and begin intensive discipleship with first 2-4 Generation 2 candidates.</p>
+                                    <div class="bg-blue-50 p-4 rounded">
+                                        <p class="font-semibold text-blue-900 mb-2 text-lg">Milestones:</p>
+                                        <ul class="text-lg text-gray-700 space-y-1">
+                                            <li>• First relationships deepen - coffee becomes Bible study</li>
+                                            <li>• Weekly one-on-ones begin with 2-4 people</li>
+                                            <li>• Share 2 Timothy 2:2 vision for multiplication</li>
+                                            <li>• Regular presence in specific campus/workplace spots</li>
+                                            <li>• First small gathering (3-5 people) informally</li>
+                                            <li>• Ask for introductions, expanding contacts</li>
+                                        </ul>
+                                        <p class="text-sm text-blue-800 mt-3"><strong>Transition:</strong> From meeting everyone to intensive focus on faithful few</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative pl-20 pb-8">
+                                <div class="absolute left-4 top-0 w-9 h-9 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg">3</div>
+                                <div class="bg-white border-2 border-purple-200 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                                    <div class="text-sm text-purple-600 font-semibold mb-1">Months 5-6: SMALL GROUPS</div>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Generation 3 Launch</h3>
+                                    <p class="text-gray-700 mb-4">4-8 leaders being discipled, each reaching their own friends and contacts.</p>
+                                    <div class="bg-green-50 p-4 rounded">
+                                        <p class="font-semibold text-green-900 mb-2 text-lg">Growth Indicators:</p>
+                                        <ul class="text-lg text-gray-700 space-y-1">
+                                            <li>• 4-8 Generation 2 leaders discipled weekly</li>
+                                            <li>• Each Gen 2 begins reaching their friends</li>
+                                            <li>• First conversions through personal relationships</li>
+                                            <li>• Small groups begin (2-3 groups of 4-6 people)</li>
+                                            <li>• Regular weekly rhythm established naturally</li>
+                                            <li>• First campus event (simple, low-key outreach)</li>
+                                            <li>• Workplace lunch gatherings start</li>
+                                        </ul>
+                                        <p class="text-sm text-green-800 mt-3"><strong>Key Shift:</strong> From me doing everything to Gen 2 actively discipling</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative pl-20 pb-8">
+                                <div class="absolute left-4 top-0 w-9 h-9 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg">4</div>
+                                <div class="bg-white border-2 border-purple-200 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                                    <div class="text-sm text-purple-600 font-semibold mb-1">Months 7-9: CRITICAL MASS</div>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Generation 4 Reach</h3>
+                                    <p class="text-gray-700 mb-4">20-30 people connected, clear 4-generation pipeline visible.</p>
+                                    <div class="bg-yellow-50 p-4 rounded">
+                                        <p class="font-semibold text-yellow-900 mb-2 text-lg">Movement Indicators:</p>
+                                        <ul class="text-lg text-gray-700 space-y-1">
+                                            <li>• 20-30 people now connected to movement</li>
+                                            <li>• Clear pipeline: 1 → 8 → 20 → seekers</li>
+                                            <li>• Multiple small groups meeting (4-5 groups)</li>
+                                            <li>• Regular conversions through relationships</li>
+                                            <li>• First baptisms coordinated with local church</li>
+                                            <li>• Weekly gatherings established (Wed campus, Fri workplace)</li>
+                                            <li>• Some Gen 3 showing leadership potential</li>
+                                            <li>• Ministry becoming known on campus and workplace</li>
+                                        </ul>
+                                        <p class="text-sm text-yellow-800 mt-3"><strong>Milestone:</strong> Critical mass achieved, visibly multiplying</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative pl-20">
+                                <div class="absolute left-4 top-0 w-9 h-9 bg-purple-600 text-white rounded-full flex items-center justify-center font-bold text-sm shadow-lg">5</div>
+                                <div class="bg-white border-2 border-purple-200 rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
+                                    <div class="text-sm text-purple-600 font-semibold mb-1">Months 10-12: MULTIPLICATION</div>
+                                    <h3 class="text-xl font-bold text-gray-800 mb-3">Stabilization & Growth</h3>
+                                    <p class="text-gray-700 mb-4">30-40 people in fellowship, self-multiplying movement operational.</p>
+                                    <div class="bg-orange-50 p-4 rounded">
+                                        <p class="font-semibold text-orange-900 mb-2 text-lg">Year 1 Completion:</p>
+                                        <ul class="text-lg text-gray-700 space-y-1">
+                                            <li>• 30-40 people in regular fellowship</li>
+                                            <li>• 10-12 Generation 2 leaders actively making disciples</li>
+                                            <li>• 6-8 small groups meeting weekly</li>
+                                            <li>• Monthly combined gatherings for worship/teaching</li>
+                                            <li>• Partnership with churches formalized</li>
+                                            <li>• First students graduating, staying through workplace ministry</li>
+                                            <li>• Consistent giving beginning among participants</li>
+                                            <li>• Leadership development structures in place</li>
+                                        </ul>
+                                        <p class="text-sm text-orange-800 mt-3"><strong>Goal Achieved:</strong> Foundation for church planting established</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border-2 border-blue-200 mt-6">
+                            <h3 class="text-xl font-bold text-blue-900 mb-4">Keys to Multiplication Success</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg text-gray-700">
+                                <ul class="space-y-2">
+                                    <li>• <strong>Start with Presence:</strong> First 2 months just showing up, being available</li>
+                                    <li>• <strong>Look for "People of Peace":</strong> Those who welcome you and open networks</li>
+                                    <li>• <strong>Focus on the Few:</strong> Invest deeply in 2-4 initially</li>
+                                    <li>• <strong>Go Where People Are:</strong> Cafeterias, libraries, food courts</li>
+                                    <li>• <strong>Use Meals & Coffee:</strong> Natural, low-pressure contexts</li>
+                                </ul>
+                                <ul class="space-y-2">
+                                    <li>• <strong>Be Patient:</strong> Relationships take time, rushing kills authenticity</li>
+                                    <li>• <strong>Model Everything:</strong> Show what disciples should do</li>
+                                    <li>• <strong>Release Early:</strong> Let Gen 2 practice before "ready"</li>
+                                    <li>• <strong>Celebrate Small Wins:</strong> First study, first conversion, first leader</li>
+                                    <li>• <strong>Stay Dependent on Prayer:</strong> Zero requires supernatural breakthrough</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Budget Tab -->
+                <div id="budget" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Budget Breakdown</h2>
+                        
+                        <div class="grid grid-cols-3 gap-2 sm:gap-4 md:gap-6 mb-6">
+                            <div class="bg-gradient-to-br from-green-500 to-green-600 text-white p-6 rounded-lg shadow-lg">
+                                <svg class="w-8 h-8 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <h3 class="text-2xl font-bold mb-1">$500</h3>
+                                <p class="text-sm opacity-90">Monthly Budget</p>
+                                <p class="text-xs mt-2 opacity-75">₱28,000 pesos</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-6 rounded-lg shadow-lg">
+                                <svg class="w-8 h-8 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                </svg>
+                                <h3 class="text-2xl font-bold mb-1">$6,000</h3>
+                                <p class="text-sm opacity-90">Annual Budget</p>
+                                <p class="text-xs mt-2 opacity-75">₱336,000 pesos</p>
+                            </div>
+                            <div class="bg-gradient-to-br from-purple-500 to-purple-600 text-white p-6 rounded-lg shadow-lg">
+                                <svg class="w-8 h-8 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                                </svg>
+                                <h3 class="text-2xl font-bold mb-1">$30,000</h3>
+                                <p class="text-sm opacity-90">5-Year Total</p>
+                                <p class="text-xs mt-2 opacity-75">₱1,680,000 pesos</p>
+                            </div>
+                        </div>
+
+                        <div class="bg-white border-2 border-gray-200 rounded-lg overflow-x-auto">
+                            <table class="w-full">
+                                <thead class="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+                                    <tr>
+                                        <th class="text-left p-4">Category</th>
+                                        <th class="text-right p-4">Monthly (USD)</th>
+                                        <th class="text-right p-4">Monthly (PHP)</th>
+                                        <th class="text-right p-4">Annual (USD)</th>
+                                        <th class="text-right p-4">%</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="bg-gray-50">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Personal Support</p>
+                                            <p class="text-xs text-gray-500">Part-time compensation (15-20 hrs/week)</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$300</td>
+                                        <td class="p-4 text-right text-gray-700">₱16,800</td>
+                                        <td class="p-4 text-right text-gray-700">$3,600</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">60%</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Hospitality</p>
+                                            <p class="text-xs text-gray-500">Meals, coffee for one-on-ones, merienda</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$70</td>
+                                        <td class="p-4 text-right text-gray-700">₱3,920</td>
+                                        <td class="p-4 text-right text-gray-700">$840</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">14%</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Transportation</p>
+                                            <p class="text-xs text-gray-500">Motorcycle gas, travel to meetings</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$40</td>
+                                        <td class="p-4 text-right text-gray-700">₱2,240</td>
+                                        <td class="p-4 text-right text-gray-700">$480</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">8%</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Discipleship Materials</p>
+                                            <p class="text-xs text-gray-500">Bibles, study guides, notebooks</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$30</td>
+                                        <td class="p-4 text-right text-gray-700">₱1,680</td>
+                                        <td class="p-4 text-right text-gray-700">$360</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">6%</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Outreach Tools</p>
+                                            <p class="text-xs text-gray-500">Gospel tracts, event supplies, invitations</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$10</td>
+                                        <td class="p-4 text-right text-gray-700">₱1,400</td>
+                                        <td class="p-4 text-right text-gray-700">$300</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">2%</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Communication</p>
+                                            <p class="text-xs text-gray-500">Mobile load, internet for coordination</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$10</td>
+                                        <td class="p-4 text-right text-gray-700">₱560</td>
+                                        <td class="p-4 text-right text-gray-700">$120</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">2%</td>
+                                    </tr>
+                                    <tr class="bg-gray-50">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Leadership Development</p>
+                                            <p class="text-xs text-gray-500">Training materials, resources for Gen 2</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$15</td>
+                                        <td class="p-4 text-right text-gray-700">₱840</td>
+                                        <td class="p-4 text-right text-gray-700">$180</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">3%</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Milestone T-Shirts</p>
+                                            <p class="text-xs text-gray-500">Generation milestone celebration shirts</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$15</td>
+                                        <td class="p-4 text-right text-gray-700">₱840</td>
+                                        <td class="p-4 text-right text-gray-700">$180</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">3%</td>
+                                    </tr>
+                                    <tr class="bg-white">
+                                        <td class="p-4">
+                                            <p class="font-semibold text-gray-700">Contingency</p>
+                                            <p class="text-xs text-gray-500">Unexpected needs and opportunities</p>
+                                        </td>
+                                        <td class="p-4 text-right text-gray-700">$10</td>
+                                        <td class="p-4 text-right text-gray-700">₱560</td>
+                                        <td class="p-4 text-right text-gray-700">$120</td>
+                                        <td class="p-4 text-right font-bold text-purple-600">2%</td>
+                                    </tr>
+                                    <tr class="bg-gradient-to-r from-purple-100 to-blue-100 font-bold">
+                                        <td class="p-4 text-gray-800">TOTAL</td>
+                                        <td class="p-4 text-right text-gray-800">$500</td>
+                                        <td class="p-4 text-right text-gray-800">₱28,000</td>
+                                        <td class="p-4 text-right text-gray-800">$6,000</td>
+                                        <td class="p-4 text-right text-gray-800">100%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                        <h3 class="font-bold text-green-900 mb-3">Sustainability Path to Self-Support</h3>
+                        <ul class="space-y-2 text-lg text-gray-700">
+                            <li>• <strong>Year 1:</strong> 100% external support (₱28,000/$500)</li>
+                            <li>• <strong>Year 2:</strong> 10-20% local support begins</li>
+                            <li>• <strong>Year 3:</strong> 30-40% local support growing</li>
+                            <li>• <strong>Year 4:</strong> 60-70% local support maturing</li>
+                            <li>• <strong>Year 5:</strong> 100% local support achieved</li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-4 italic">Church fully self-supporting at launch</p>
+                    </div>
+
+                    <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-bold text-yellow-900 mb-3">Why This Budget Works</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg text-gray-700">
+                            <ul class="space-y-2">
+                                <li>• <strong>Lean & Sustainable:</strong> Based on Filipino economics</li>
+                                <li>• <strong>Relational Focus:</strong> 70% goes to hospitality & people</li>
+                            </ul>
+                            <ul class="space-y-2">
+                                <li>• <strong>Decreasing Need:</strong> Local giving increases yearly</li>
+                                <li>• <strong>Church-Ready:</strong> Self-supporting by Year 5</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Goals Tab -->
+                <div id="goals" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">5-Year Church Planting Goals</h2>
+                        
+                        <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-lg mb-6">
+                            <h3 class="text-2xl font-bold mb-2">The Vision: Zero to Church in 5 Years</h3>
+                            <p class="text-base">From no community to a self-governing, self-supporting, self-propagating local church with 100-200 members.</p>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-white border-2 border-purple-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 flex items-center justify-between">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Year 1: Foundation</h3>
+                                        <p class="text-lg opacity-90">Discipleship Core</p>
+                                    </div>
+                                    <div class="text-3xl font-bold opacity-80">1</div>
+                                </div>
+                                <div class="p-6">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-purple-600 mb-1">30-40</div>
+                                            <div class="text-sm text-gray-600">Believers</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-blue-600 mb-1">8-12</div>
+                                            <div class="text-sm text-gray-600">Leaders</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-green-600 mb-1">8-12</div>
+                                            <div class="text-sm text-gray-600">Baptisms</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-sm font-bold text-orange-600 mb-1">100% External</div>
+                                            <div class="text-sm text-gray-600">Funding</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-purple-50 p-4 rounded text-lg">
+                                        <p class="font-semibold text-purple-900 mb-2">Key Milestones:</p>
+                                        <ul class="text-gray-700 space-y-1">
+                                            <li>• 10-12 Generation 2 leaders trained and multiplying</li>
+                                            <li>• Small groups meeting in various locations</li>
+                                            <li>• Strong church partnerships established</li>
+                                            <li>• Campus and workplace ministry integrated</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white border-2 border-purple-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 flex items-center justify-between">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Year 2: Expansion</h3>
+                                        <p class="text-lg opacity-90">Growing Community</p>
+                                    </div>
+                                    <div class="text-3xl font-bold opacity-80">2</div>
+                                </div>
+                                <div class="p-6">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-purple-600 mb-1">60-80</div>
+                                            <div class="text-sm text-gray-600">Believers</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-blue-600 mb-1">20+</div>
+                                            <div class="text-sm text-gray-600">Leaders</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-green-600 mb-1">15-20</div>
+                                            <div class="text-sm text-gray-600">Baptisms</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-sm font-bold text-orange-600 mb-1">80-90% External</div>
+                                            <div class="text-sm text-gray-600">Funding</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-blue-50 p-4 rounded text-lg">
+                                        <p class="font-semibold text-blue-900 mb-2">Key Milestones:</p>
+                                        <ul class="text-gray-700 space-y-1">
+                                            <li>• 20+ Gen 2 leaders actively discipling</li>
+                                            <li>• Weekly combined worship (50-60 attending)</li>
+                                            <li>• 8-10 small groups multiplying</li>
+                                            <li>• Potential elder candidates identified</li>
+                                            <li>• Children's ministry started</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white border-2 border-purple-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 flex items-center justify-between">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Year 3: Development</h3>
+                                        <p class="text-lg opacity-90">Church DNA</p>
+                                    </div>
+                                    <div class="text-3xl font-bold opacity-80">3</div>
+                                </div>
+                                <div class="p-6">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-purple-600 mb-1">100+</div>
+                                            <div class="text-sm text-gray-600">Believers</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-blue-600 mb-1">30+</div>
+                                            <div class="text-sm text-gray-600">Leaders</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-green-600 mb-1">25-30</div>
+                                            <div class="text-sm text-gray-600">Baptisms</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-sm font-bold text-orange-600 mb-1">60-70% External</div>
+                                            <div class="text-sm text-gray-600">Funding</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded text-lg">
+                                        <p class="font-semibold text-green-900 mb-2">Key Milestones:</p>
+                                        <ul class="text-gray-700 space-y-1">
+                                            <li>• Sunday services begin (80-100 attending)</li>
+                                            <li>• 3-5 elders/pastors in training</li>
+                                            <li>• Ministry teams functioning</li>
+                                            <li>• Regular baptisms quarterly</li>
+                                            <li>• Financial stewardship teaching</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white border-2 border-purple-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-3 flex items-center justify-between">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Year 4: Formation</h3>
+                                        <p class="text-lg opacity-90">Pre-Launch Church</p>
+                                    </div>
+                                    <div class="text-3xl font-bold opacity-80">4</div>
+                                </div>
+                                <div class="p-6">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-purple-600 mb-1">120-150</div>
+                                            <div class="text-sm text-gray-600">Believers</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-blue-600 mb-1">40+</div>
+                                            <div class="text-sm text-gray-600">Leaders</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-green-600 mb-1">30+</div>
+                                            <div class="text-sm text-gray-600">Baptisms</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-sm font-bold text-orange-600 mb-1">20-30% External</div>
+                                            <div class="text-sm text-gray-600">Funding</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-yellow-50 p-4 rounded text-lg">
+                                        <p class="font-semibold text-yellow-900 mb-2">Key Milestones:</p>
+                                        <ul class="text-gray-700 space-y-1">
+                                            <li>• Elder team publicly recognized</li>
+                                            <li>• Facility secured (rent or own)</li>
+                                            <li>• Church constitution approved</li>
+                                            <li>• Legal registration in process</li>
+                                            <li>• Multiple ministry teams operating</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white border-2 border-green-300 rounded-lg overflow-hidden shadow-xl">
+                                <div class="bg-gradient-to-r from-green-600 to-blue-600 text-white px-6 py-3 flex items-center justify-between">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Year 5: LAUNCH 🎉</h3>
+                                        <p class="text-lg opacity-90">Established Church</p>
+                                    </div>
+                                    <div class="text-3xl font-bold opacity-80">5</div>
+                                </div>
+                                <div class="p-6">
+                                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-purple-600 mb-1">150-200</div>
+                                            <div class="text-sm text-gray-600">Believers</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-blue-600 mb-1">50+</div>
+                                            <div class="text-sm text-gray-600">Leaders</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-2xl font-bold text-green-600 mb-1">40+</div>
+                                            <div class="text-sm text-gray-600">Baptisms</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-sm font-bold text-green-600 mb-1">0% External</div>
+                                            <div class="text-sm text-gray-600">Funding</div>
+                                        </div>
+                                    </div>
+                                    <div class="bg-green-50 p-4 rounded text-lg">
+                                        <p class="font-semibold text-green-900 mb-2">🎯 Church Launch Goals Achieved:</p>
+                                        <ul class="text-gray-700 space-y-1">
+                                            <li>• Official church plant launched and inaugurated</li>
+                                            <li>• 100-200 committed members</li>
+                                            <li>• Fully functioning church programs</li>
+                                            <li>• First church plant team sent out</li>
+                                            <li>• Recognized by denomination/association</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activities Tab -->
+                <div id="activities" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Core Ministry Activities</h2>
+
+                        <div class="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-lg border-2 border-purple-200">
+                            <h3 class="text-xl font-bold text-purple-900 mb-3">Activity Allocation</h3>
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-purple-600">70%</div>
+                                    <div class="text-sm text-gray-700 font-semibold">Personal Discipleship</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-blue-600">20%</div>
+                                    <div class="text-sm text-gray-700 font-semibold">Small Groups</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-green-600">10%</div>
+                                    <div class="text-sm text-gray-700 font-semibold">Large Gatherings</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold text-yellow-600">Ongoing</div>
+                                    <div class="text-sm text-gray-700 font-semibold">Leadership Dev</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white border-2 border-purple-200 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-purple-900 mb-4">1. Personal Discipleship (Primary - 70%)</h3>
+                                <div class="space-y-3 text-lg text-gray-700">
+                                    <div>
+                                        <p class="font-semibold text-purple-800">Me with Gen 2 Leaders:</p>
+                                        <ul class="ml-4 mt-1 space-y-1">
+                                            <li>• Weekly 1-on-1 meetings (1-2 hrs each)</li>
+                                            <li>• Deep dive into Scripture</li>
+                                            <li>• Life application and accountability</li>
+                                            <li>• Equipping for ministry</li>
+                                            <li>• Problem-solving discipleship challenges</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-blue-800">Gen 2 with Gen 3 Disciples:</p>
+                                        <ul class="ml-4 mt-1 space-y-1">
+                                            <li>• Personal time over coffee or meals</li>
+                                            <li>• Bible study and life application</li>
+                                            <li>• Prayer and encouragement</li>
+                                            <li>• Teaching what they learned from Gen 1</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-green-800">Gen 3 with Gen 4 Seekers:</p>
+                                        <ul class="ml-4 mt-1 space-y-1">
+                                            <li>• Building friendships and trust</li>
+                                            <li>• Sharing life and faith naturally</li>
+                                            <li>• Inviting to events and gatherings</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-white border-2 border-blue-200 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-blue-900 mb-4">2. Small Group Community (20%)</h3>
+                                <div class="space-y-3 text-lg text-gray-700">
+                                    <div>
+                                        <p class="font-semibold text-blue-800">Structure:</p>
+                                        <ul class="ml-4 mt-1 space-y-1">
+                                            <li>• 3-4 campus-based groups (students)</li>
+                                            <li>• 2-3 workplace groups (professionals)</li>
+                                            <li>• Mixed Gen 2 and 3 in each group</li>
+                                            <li>• 4-6 people per group</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <p class="font-semibold text-blue-800">Focus:</p>
+                                        <ul class="ml-4 mt-1 space-y-1">
+                                            <li>• Practicing 1-on-1 discipleship lessons</li>
+                                            <li>• Building community and accountability</li>
+                                            <li>• Worship, prayer, Bible study</li>
+                                            <li>• Training ground for future leaders</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white border-2 border-green-200 rounded-lg p-6">
+                            <h3 class="text-xl font-bold text-green-900 mb-4">3. Large Gatherings (10%)</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="font-bold text-green-800 mb-3">Friday Evening: Campus Gathering (90 min)</h4>
+                                    <p class="text-lg text-gray-600 mb-2"><strong>Location:</strong> Campus chapel, classroom, or open space</p>
+                                    <p class="text-lg text-gray-600 mb-3"><strong>Participants:</strong> Students from all four generations</p>
+                                    <div class="bg-green-50 p-3 rounded text-lg">
+                                        <p class="font-semibold mb-2">Format:</p>
+                                        <ul class="space-y-1 text-gray-700">
+                                            <li>• Worship and prayer (20 min)</li>
+                                            <li>• Biblical teaching on discipleship (30 min)</li>
+                                            <li>• Small group breakouts - Gen 2 facilitate (30 min)</li>
+                                            <li>• Fellowship and ministry (10 min)</li>
+                                        </ul>
+                                        <p class="mt-2 text-xs text-green-800"><strong>Focus:</strong> Discipleship, character formation, evangelism, Scripture</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-800 mb-3">Saturday Evening: Professional Gathering (60 min)</h4>
+                                    <p class="text-lg text-gray-600 mb-2"><strong>Location:</strong> Coffee shop or accessible venue (6:30-7:30 PM)</p>
+                                    <p class="text-lg text-gray-600 mb-3"><strong>Participants:</strong> Professionals from all career stages and four generations</p>
+                                    <div class="bg-blue-50 p-3 rounded text-lg">
+                                        <p class="font-semibold mb-2">Format:</p>
+                                        <ul class="space-y-1 text-gray-700">
+                                            <li>• Opening prayer and fellowship (10 min)</li>
+                                            <li>• Faith & work devotional (20 min)</li>
+                                            <li>• Small group discussion - Gen 2 facilitate (25 min)</li>
+                                            <li>• Closing prayer and commissioning (5 min)</li>
+                                        </ul>
+                                        <p class="mt-2 text-xs text-blue-800"><strong>Focus:</strong> Workplace integrity, faith integration, discipleship multiplication, marketplace leadership</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                            <h3 class="text-xl font-bold text-yellow-900 mb-4">4. Leadership Development (Bi-Monthly)</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg">
+                                <div>
+                                    <p class="font-semibold text-yellow-900 mb-2">Saturday Morning Training (2 hours):</p>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• <strong>Location:</strong> Home, church, or community space</li>
+                                        <li>• <strong>Participants:</strong> Me + Gen 2 Leaders (students and professionals together)</li>
+                                        <li>• Advanced discipleship training</li>
+                                        <li>• Problem-solving and coaching</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-yellow-900 mb-2">Content Focus:</p>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Vision casting for multiplication</li>
+                                        <li>• Prayer and strategic planning</li>
+                                        <li>• Building unity across contexts</li>
+                                        <li>• Preparing to raise up new leaders</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shirts Tab -->
+                <div id="shirts" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Milestone T-Shirt System</h2>
+                        
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-6">
+                            <h3 class="font-bold text-blue-900 mb-3 text-xl">Purpose & Vision</h3>
+                            <p class="text-gray-700 mb-4">
+                                The Generation Milestone T-Shirt system creates visible, tangible markers of spiritual growth and discipleship progression.
+                            </p>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-lg">
+                                <div class="bg-white p-3 rounded border border-blue-200">
+                                    <p class="font-bold text-blue-800">🎉 Celebration</p>
+<p class="text-gray-600 text-sm">Marks milestones, provides affirmation</p>
+</div>
+<div class="bg-white p-3 rounded border border-blue-200">
+<p class="font-bold text-blue-800">🎯 Motivation</p>
+<p class="text-gray-600 text-sm">Inspires growth to next generation</p>
+</div>
+<div class="bg-white p-3 rounded border border-blue-200">
+<p class="font-bold text-blue-800">💬 Testimony</p>
+<p class="text-gray-600 text-sm">Walking advertisement, conversation starter</p>
+</div>
+</div>
+</div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="border-2 border-gray-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-white border-2 border-gray-300 text-gray-800 p-6 text-center font-bold text-lg">
+                                    Gen 4→3: NEW DISCIPLE
+                                    <div class="text-lg font-normal mt-2 text-gray-600">(White Shirt)</div>
+                                </div>
+                                <div class="p-6 bg-white">
+                                    <div class="text-lg text-gray-700 space-y-2">
+                                        <p><strong>When Given:</strong> Upon profession of faith and commitment to discipleship</p>
+                                        <p><strong>Design:</strong> Clean, fresh start - white represents new life in Christ</p>
+                                        <p><strong>Front Text:</strong> "GENERATION 3 - New in Christ"</p>
+                                        <p><strong>Back Text:</strong> "2 Timothy 2:2 - Puerto Princesa"</p>
+                                        <p><strong>Message:</strong> "I am a new disciple, learning to follow Jesus"</p>
+                                    </div>
+                                    <div class="flex items-center justify-center gap-2 mt-4 pt-4 border-t">
+                                        <span class="text-lg font-semibold text-purple-600">₱200-250 per shirt</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-2 border-blue-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-blue-600 text-white p-6 text-center font-bold text-lg">
+                                    Gen 3→2: DISCIPLE MAKER
+                                    <div class="text-lg font-normal mt-2 opacity-90">(Blue Shirt)</div>
+                                </div>
+                                <div class="p-6 bg-white">
+                                    <div class="text-lg text-gray-700 space-y-2">
+                                        <p><strong>When Given:</strong> Upon commissioning as leader and beginning to disciple others</p>
+                                        <p><strong>Design:</strong> Blue represents depth, maturity, faithfulness</p>
+                                        <p><strong>Front Text:</strong> "GENERATION 2 - Servant Leader"</p>
+                                        <p><strong>Back Text:</strong> "Making Disciples Who Make Disciples"</p>
+                                        <p><strong>Message:</strong> "I am now investing in others, multiplying the ministry"</p>
+                                    </div>
+                                    <div class="flex items-center justify-center gap-2 mt-4 pt-4 border-t">
+                                        <span class="text-lg font-semibold text-purple-600">₱200-250 per shirt</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-2 border-green-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-green-600 text-white p-6 text-center font-bold text-lg">
+                                    Gen 2+: MULTIPLIER
+                                    <div class="text-lg font-normal mt-2 opacity-90">(Green Shirt)</div>
+                                </div>
+                                <div class="p-6 bg-white">
+                                    <div class="text-lg text-gray-700 space-y-2">
+                                        <p><strong>When Given:</strong> When Gen 2 leader successfully raises up another Gen 2 leader</p>
+                                        <p><strong>Design:</strong> Green represents growth, life, fruitfulness</p>
+                                        <p><strong>Front Text:</strong> "GENERATION 2+ - Multiplier"</p>
+                                        <p><strong>Back Text:</strong> "Raising Up Leaders"</p>
+                                        <p><strong>Message:</strong> "I'm not just making disciples, I'm making disciple-makers"</p>
+                                    </div>
+                                    <div class="flex items-center justify-center gap-2 mt-4 pt-4 border-t">
+                                        <span class="text-lg font-semibold text-purple-600">₱200-250 per shirt</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border-2 border-red-300 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+                                <div class="bg-red-600 text-white p-6 text-center font-bold text-lg">
+                                    CHURCH PLANTER
+                                    <div class="text-lg font-normal mt-2 opacity-90">(Red Shirt)</div>
+                                </div>
+                                <div class="p-6 bg-white">
+                                    <div class="text-lg text-gray-700 space-y-2">
+                                        <p><strong>When Given:</strong> Year 5 - To founding members of the planted church</p>
+                                        <p><strong>Design:</strong> Red represents passion, sacrifice, fire of the Spirit</p>
+                                        <p><strong>Front Text:</strong> "CHURCH PLANTER - Puerto Princesa"</p>
+                                        <p><strong>Back Text:</strong> "From Zero to Church - 2026-2031"</p>
+                                        <p><strong>Message:</strong> "I was part of planting a church that plants churches"</p>
+                                    </div>
+                                    <div class="flex items-center justify-center gap-2 mt-4 pt-4 border-t">
+                                        <span class="text-lg font-semibold text-purple-600">₱200-250 per shirt</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-purple-50 to-blue-50 p-6 rounded-lg border-2 border-purple-200">
+                            <h3 class="text-2xl font-bold text-purple-900 mb-4">Annual Budget & Implementation</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg mb-4">
+                                <div class="bg-white p-4 rounded border border-purple-200">
+                                    <h4 class="font-bold text-purple-800 mb-2">Year 1-2</h4>
+                                    <p class="text-gray-700">40-70 shirts</p>
+                                    <p class="text-purple-600 font-semibold">$150-263 annually</p>
+                                    <p class="text-sm text-gray-600 mt-2">New disciples and first leaders</p>
+                                </div>
+                                <div class="bg-white p-4 rounded border border-blue-200">
+                                    <h4 class="font-bold text-blue-800 mb-2">Year 3-4</h4>
+                                    <p class="text-gray-700">40-50 shirts</p>
+                                    <p class="text-blue-600 font-semibold">$150-188 annually</p>
+                                    <p class="text-sm text-gray-600 mt-2">Replacements and new growth</p>
+                                </div>
+                                <div class="bg-white p-4 rounded border border-green-200">
+                                    <h4 class="font-bold text-green-800 mb-2">Year 5</h4>
+                                    <p class="text-gray-700">150+ shirts</p>
+                                    <p class="text-green-600 font-semibold">Special fundraise</p>
+                                    <p class="text-sm text-gray-600 mt-2">Church Planter shirts</p>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-700"><strong>Average Annual Budget:</strong> ₱10,080 ($180) - Already included in ministry budget</p>
+                        </div>
+
+                        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                            <h3 class="font-bold text-yellow-900 mb-3 text-xl">Cultural Impact & Benefits</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-lg text-gray-700">
+                                <div>
+                                    <p class="font-semibold text-yellow-900 mb-2">Filipino Context Perfect Fit:</p>
+                                    <ul class="space-y-1">
+                                        <li>• Filipinos love shirts and identity markers</li>
+                                        <li>• T-shirts everyday wear - constant visibility</li>
+                                        <li>• Affordable and practical in tropical climate</li>
+                                        <li>• Creates "sama-sama" (togetherness) culture</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <p class="font-semibold text-yellow-900 mb-2">Multiplication Culture:</p>
+                                    <ul class="space-y-1">
+                                        <li>• Everyone sees pathway: Gen 3 → 2 → 2+ → Church Planter</li>
+                                        <li>• Visual reminder of movement's DNA</li>
+                                        <li>• Friendly competition to "level up"</li>
+                                        <li>• "I remember when I got my Gen 3 shirt!"</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Accountability Tab -->
+                <div id="accountability" class="tab-content">
+                    <div class="space-y-6">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-4">Accountability Structure</h2>
+
+                        <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 rounded-lg">
+                            <h3 class="text-2xl font-bold mb-2">Commitment to Transparency</h3>
+                            <p class="text-lg">I am committed to complete accountability to my supporters, spiritual mentors, and partner churches throughout this 5-year journey.</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white border-2 border-blue-200 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-blue-900 mb-4">Monthly Reporting (to all supporters)</h3>
+                                <ul class="space-y-3 text-base text-gray-700">
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-blue-600 text-xl font-bold">📊</span>
+                                        <div>
+                                            <p class="font-semibold">Four-Generation Numbers</p>
+                                            <p class="text-sm text-gray-600">Exact count: 1 → X → X → X with names when appropriate</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-blue-600 text-xl font-bold">💰</span>
+                                        <div>
+                                            <p class="font-semibold">Financial Report</p>
+                                            <p class="text-sm text-gray-600">All receipts and expenses itemized</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-blue-600 text-xl font-bold">✝️</span>
+                                        <div>
+                                            <p class="font-semibold">Testimonies & Conversion Stories</p>
+                                            <p class="text-sm text-gray-600">Real faces, real stories of transformation</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-blue-600 text-xl font-bold">🙏</span>
+                                        <div>
+                                            <p class="font-semibold">Challenges & Prayer Requests</p>
+                                            <p class="text-sm text-gray-600">Honest about struggles and needs</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-blue-600 text-xl font-bold">📈</span>
+                                        <div>
+                                            <p class="font-semibold">Generation 2 Leader Development</p>
+                                            <p class="text-sm text-gray-600">Progress of each leader being trained</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="bg-white border-2 border-green-200 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-green-900 mb-4">Quarterly Reviews</h3>
+                                <ul class="space-y-3 text-base text-gray-700">
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-green-600 text-xl font-bold">📊</span>
+                                        <span>Detailed multiplication analysis with trends</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-green-600 text-xl font-bold">💪</span>
+                                        <span>Health check of discipleship relationships</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-green-600 text-xl font-bold">🎓</span>
+                                        <span>Campus-to-workplace transition tracking</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-green-600 text-xl font-bold">⚙️</span>
+                                        <span>Strategic adjustments based on what's working</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <span class="text-green-600 text-xl font-bold">🎥</span>
+                                        <span>Video updates with real faces and stories</span>
+                                    </li>
+                                </ul>
+
+                                <div class="mt-6 pt-4 border-t border-green-200">
+                                    <h4 class="font-bold text-green-900 mb-3">Annual Evaluation</h4>
+                                    <ul class="space-y-2 text-base text-gray-700">
+                                        <li>• Comprehensive year-end report</li>
+                                        <li>• Review of success metrics against goals</li>
+                                        <li>• Vision and goals for next year</li>
+                                        <li>• Multiplication capacity assessment</li>
+                                        <li>• In-person or video call with key supporters</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
+                            <h3 class="text-2xl font-bold text-purple-900 mb-4">Spiritual Oversight & Accountability</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h4 class="font-semibold text-purple-800 mb-3">Mission Partner Churches:</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-center gap-2">
+                                            <span class="text-purple-600">⛪</span>
+                                            <span><strong>Praise Christian Church</strong></span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span class="text-purple-600">⛪</span>
+                                            <span><strong>Calvary Baptist Church</strong></span>
+                                        </li>
+                                    </ul>
+                                    <p class="text-sm text-gray-600 mt-3">Regular pastoral accountability, doctrinal alignment checks, and spiritual health monitoring</p>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-purple-800 mb-3">Personal Spiritual Mentors:</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-center gap-2">
+                                            <span class="text-purple-600">👤</span>
+                                            <span><strong>Ptr. Mark Mauricio</strong></span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span class="text-purple-600">👤</span>
+                                            <span><strong>Ptr. Nelson De Jesus</strong></span>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <span class="text-purple-600">👤</span>
+                                            <span><strong>Ptr. Tim Lepasana</strong></span>
+                                        </li>
+                                    </ul>
+                                    <p class="text-sm text-gray-600 mt-3">Personal spiritual health, character development, and ministry guidance</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                            <h3 class="text-xl font-bold text-yellow-900 mb-4">Financial Accountability</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-base text-gray-700">
+                                <ul class="space-y-2">
+                                    <li>• All receipts saved and reported monthly</li>
+                                    <li>• Monthly expense tracking spreadsheet</li>
+                                    <li>• Bank statements available on request</li>
+                                </ul>
+                                <ul class="space-y-2">
+                                    <li>• Annual financial review conducted</li>
+                                    <li>• Clear separation of personal and ministry funds</li>
+                                    <li>• Complete transparency with supporters</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg border-2 border-blue-200">
+                            <h3 class="text-xl font-bold text-blue-900 mb-4">Commitment to Supporters</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-base">
+                                <div class="bg-white p-4 rounded border border-blue-200">
+                                    <h4 class="font-bold text-blue-800 mb-2">I Will Provide:</h4>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Monthly email updates with stories</li>
+                                        <li>• Quarterly video reports</li>
+                                        <li>• Annual in-person or detailed written report</li>
+                                        <li>• Complete financial transparency</li>
+                                        <li>• 24/7 access - contact me anytime</li>
+                                        <li>• 5-year commitment - in this for the long haul</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-white p-4 rounded border border-purple-200">
+                                    <h4 class="font-bold text-purple-800 mb-2">Success Metrics Tracked:</h4>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Number in each generation (monthly)</li>
+                                        <li>• Multiplication rate of Gen 2 leaders</li>
+                                        <li>• Retention and faithfulness rates</li>
+                                        <li>• Professions of faith and baptisms</li>
+                                        <li>• Church integration percentage</li>
+                                        <li>• Campus-to-workplace transitions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gradient-to-r from-purple-600 to-blue-600 text-white p-6 md:p-8 lg:p-10 mt-auto">
+            <div class="text-center">
+                <h3 class="text-lg md:text-xl lg:text-2xl font-bold mb-3">"The things which you have heard from me in the presence of many witnesses, entrust these to faithful people who will be able to teach others also." - 2 Timothy 2:2</h3>
+                <div class="flex items-center justify-center gap-6 md:gap-10 lg:gap-12 mt-8 flex-wrap text-base md:text-lg lg:text-xl">
+                </div>
+                <div class="mt-8 pt-6 border-t border-white/20">
+                    <p class="text-base md:text-lg lg:text-xl opacity-90">Ministry Worker: Reynold Viernes | Partnership: Contact/GCash 09271722276 | Email: scyeanreyn@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showTab(tabName) {
+        const tabs = document.querySelectorAll('.tab-content');
+        tabs.forEach(tab => tab.classList.remove('active'));
+        
+        const buttons = document.querySelectorAll('.tab-btn');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        
+        document.getElementById(tabName).classList.add('active');
+        event.target.classList.add('active');
+        
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>
